@@ -1,0 +1,97 @@
+<html>
+
+<head>
+    <title> JavaScript Calculator </title>
+
+    <style>
+        h1 {
+
+
+            text-align: center;
+            padding: 23px;
+            background-color: skyblue;
+            color: navy;
+        }
+
+        input {
+            width: 50px;
+            height: 60px;
+            border-color: orchid;
+            color: black;
+            border: 3px solid navy;
+            border-radius: 5px;
+            padding: 26px;
+            margin: 7px;
+            font-size: 15px;
+        }
+
+        .form {
+            width: 300px;
+            height: 530px;
+            margin: auto;
+            border: 3px solid navy;
+            border-radius: 5px;
+            padding: 20px;
+        }
+
+        #calc {
+            width: 300px;
+            height: 60px;
+            border: 3px solid navy;
+            margin: auto;
+            padding: 10px;
+
+        }
+
+        #clear {
+
+            width: 280px;
+            border: 3px solid gray;
+
+            text-align: center;
+            border-radius: 3px;
+            padding: 23px;
+            background-color: skyblue;
+            color: navy;
+            font-size: x-large;
+
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Calculator Javascript program</h1>
+    <div class="form">
+        <form name="calculator">
+            <input id="calc" type="text" name="res"> <br> <br>
+            <input type="button" value="1" onclick="calculator.res.value += '1'">
+            <input type="button" value="2" onclick="calculator.res.value += '2'">
+            <input type="button" value="3" onclick="calculator.res.value += '3'">
+            <input type="button" value="+" onclick="calculator.res.value += '+'"> <br>
+
+
+
+            <input type="button" value="4" onclick="calculator.res.value += '4'">
+            <input type="button" value="5" onclick="calculator.res.value += '5'">
+            <input type="button" value="6" onclick="calculator.res.value += '6'">
+            <input type="button" value="-" onclick="calculator.res.value += '-'"> <br>
+
+            <input type="button" value="4" onclick="calculator.res.value += '7'">
+            <input type="button" value="5" onclick="calculator.res.value += '8'">
+            <input type="button" value="6" onclick="calculator.res.value += '9'">
+            <input type="button" value="*" onclick="calculator.res.value += '*'"> <br>
+
+            <input type="button" value="4" onclick="calculator.res.value += '/'">
+            <input type="button" value="5" onclick="calculator.res.value += '0'">
+            <input type="button" value="6" onclick="calculator.res.value += '.'">
+            <input type="button" value="=" onclick="calculator.res.value = eval(calculator.res.value)"> <br>
+            <br>
+
+            <input type="button" value="Clear All" id="clear" onclick="calculator.res.value= ''">
+        </form>
+    </div>
+</body>
+
+</html>
