@@ -1,0 +1,17 @@
+Random Password Generator:
+HTML(UI): 
+*On the UI page we will add a text box  to generate password.
+*Two buttons 1)Generate:Generating the password
+	     2)Copy    :Copying the generated password
+
+Javascript:
+Two functions
+1)genPassword()
+2)copyPassword()
+
+Inbuilt Functions :
+We have used few inbuilt in functions
+Math.random()
+Math.floor()
+select()
+execCommand()
